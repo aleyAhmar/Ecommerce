@@ -5,6 +5,7 @@ import img3 from "../images/medical-3.jpg";
 // import img4 from "../images/medical-4.jpg";
 
 const Corousel = () => {
+
     return (
         <>
             <div
@@ -38,9 +39,9 @@ const Corousel = () => {
                 </div>
 
                 {/* Carousel body */}
-                <div className="carousel-inner">
+                <div className="carousel-inner" style={{height:'70vh'}}>
                     <div className="carousel-item">
-                        <img src={img1} className="w-100 h-75" alt="Slide 1" />
+                        <img src={img1} className="w-100 h-75" style={{height:'70%'}} alt="Slide 1" />
                         <div className="container">
                             <div className="carousel-caption text-start">
                                 <h1>Example headline.</h1>
@@ -57,7 +58,7 @@ const Corousel = () => {
                         </div>
                     </div>
                     <div className="carousel-item active">
-                        <img src={img2} className=" w-100 h-75" alt="Slide 2" />
+                        <img src={img2} className=" w-100 h-75"style={{height:'70%'}} alt="Slide 2" />
                         <div className="container">
                             <div className="carousel-caption">
                                 <h1>Another example headline.</h1>
@@ -72,7 +73,7 @@ const Corousel = () => {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={img3} className="w-100 h-75" alt="Slide 3" />
+                        <img src={img3} className="w-100 h-100"style={{height:'70%'}} alt="Slide 3" />
                         <div className="container">
                             <div className="carousel-caption text-end">
                                 <h1>One more for good measure.</h1>

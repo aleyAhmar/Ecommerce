@@ -8,7 +8,7 @@ import AboutPage from './AboutPage'
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark"> 
-      <div className="container-fluid">
+      <div className="container">
         <NavLink className="navbar-brand" to="/">
           E-Commerce 
         </NavLink>
@@ -24,7 +24,7 @@ const Header = () => {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink className="nav-link" aria-current="page" to="/" element={<HomePage/>}>
                 Home
