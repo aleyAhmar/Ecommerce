@@ -7,6 +7,7 @@ import ContactPage from './components/ContactPage';
 
 
 
+
 function App() {
   return (
    <>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<ContactPage/>}/>
       </Routes>
    </BrowserRouter>
+
    </>
   );
 }
