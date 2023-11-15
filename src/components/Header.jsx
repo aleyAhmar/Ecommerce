@@ -10,7 +10,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark"> 
       <div className="container">
         <NavLink className="navbar-brand" to="/">
-          E-Commerce 
+          AHC - Surgical Equipments
         </NavLink>
         <button
           className="navbar-toggler"

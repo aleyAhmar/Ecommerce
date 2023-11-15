@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Corousel from './Corousel'
 import ContactStrip from './ContactStrip'
+import HomePageWelcome from './HomePageWelcome'
 
 
 const HomePage = () => {
@@ -10,7 +11,8 @@ const HomePage = () => {
     <ContactStrip/>
     <Header/>
     <Corousel/>
-    <h1>Home Page</h1>
+    <HomePageWelcome/>
+    {/* <h1>Home Page</h1> */}
     </>
   )
 }

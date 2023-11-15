@@ -39,54 +39,23 @@ const Corousel = () => {
                 </div>
 
                 {/* Carousel body */}
-                <div className="carousel-inner" style={{height:'70vh'}}>
+                <div className="carousel-inner" >
                     <div className="carousel-item">
-                        <img src={img1} className="w-100 h-75" style={{height:'70%'}} alt="Slide 1" />
+                        <img src={img1} className="w-100 h-75"  alt="Slide 1" />
                         <div className="container">
-                            <div className="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p className="opacity-75">
-                                    Some representative placeholder content for the first slide of
-                                    the carousel.
-                                </p>
-                                <p>
-                                    <button className="btn btn-lg btn-primary" href="#">
-                                        Sign up today
-                                    </button>
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
                     <div className="carousel-item active">
-                        <img src={img2} className=" w-100 h-75"style={{height:'70%'}} alt="Slide 2" />
+                        <img src={img2} className=" w-100 h-75" alt="Slide 2" />
                         <div className="container">
-                            <div className="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>
-                                    Some representative placeholder content for the second slide
-                                    of the carousel.
-                                </p>
-                                <p>
-                                    <button className="btn btn-lg btn-primary">Learn more</button>
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={img3} className="w-100 h-100"style={{height:'70%'}} alt="Slide 3" />
+                        <img src={img3} className="w-100 h-100" alt="Slide 3" />
                         <div className="container">
-                            <div className="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>
-                                    Some representative placeholder content for the third slide of
-                                    this carousel.
-                                </p>
-                                <p>
-                                    <button className="btn btn-lg btn-">
-                                        Browse gallery
-                                    </button>
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
