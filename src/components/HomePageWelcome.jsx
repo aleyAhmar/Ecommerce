@@ -1,7 +1,9 @@
 import React from "react";
 import dialImg from "../images/dialyzer-img.png"
+import health from "../images/health.jpg"
 
 const HomePageWelcome = () => {
+  
   return (
     <div style={{ position: "relative" }}>
       <div
@@ -16,45 +18,97 @@ const HomePageWelcome = () => {
         <h3>Your Premier Destination for Cutting-Edge Surgical Equipment!</h3>
       </div>
 
-      {/* <section id="welcome-section">
-        <div>
-          <div className="welcome-text">
-            <h2>
-              Experience Our Products
-            </h2>
-            <p>
-              Mixta continues to offer value by sharing the know-how in which it
-              is an expert and has accumulated through time, as well as selling
-              the products it makes on an individual basis while considering the
-              user experience. <br></br> Would you like to experience the virtual tour of
-              the projects we create?
-            </p>
-          </div>
+      <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary" style={{ backgroundImage:`url(${health})`, backgroundSize:"cover"}}>
+  <div className="col-lg-6 px-0">
+    <h1 className="display-4 fst-italic">
+      Your Health, Our Priority
+    </h1>
+    <p className="lead my-3">
+    At Assam Health Care, we understand the profound importance of your health, and it serves as our unwavering commitment. As a dedicated surgical company, we prioritize the well-being of our clients with a steadfast focus on delivering top-notch healthcare solutions. Our mission is to provide you with the highest quality surgical products, ensuring that your health journey is supported by cutting-edge technology and a commitment to excellence. Trust us to make your health our top priority, because your well-being is at the heart of everything we do. Welcome to a healthier future with Assam Health Care.
+    </p> 
+     
 
-          <div className="welcome-image">
-              <img src={dialImg} />
-            </div>
-        </div>
-      </section> */}
+  </div>
+</div>
 
-<div className="container section">
+{/* Services */}
+
+<div className="container marketing text-center mt-3 p-5">
+  {/* Three columns of text below the carousel */}
   <div className="row">
-    <div className="col-md-6">
-      <h3>Highly Skilled Volunteers</h3>
+    <div className="col-lg-4">
+      <svg
+        className="bd-placeholder-img rounded-circle"
+        width={140}
+        height={140}
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="Placeholder"
+        preserveAspectRatio="xMidYMid slice"
+        focusable="false"
+      >
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+      </svg>
+      <h2 className="fw-normal">Heading</h2>
       <p>
-        Through its program, TopVolunteer™, GetLance partners with leading
-        nonprofits and NGOs around the world who need high-skilled talent for
-        their volunteer initiatives. Members of the GetLance network are
-        encouraged to offer their skills and experience to these projects,
-        whether to solve a timely problem or to contribute on an ongoing basis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex deleniti molestias quidem mollitia incidunt cumque quasi cupiditate rem unde omnis?
+      </p>
+      <p>
+        
       </p>
     </div>
-    <div className="col-md-6">
-      <img className="image-dialyzer" src={dialImg} alt="" />
+    {/* /.col-lg-4 */}
+    <div className="col-lg-4">
+      <svg
+        className="bd-placeholder-img rounded-circle"
+        width={140}
+        height={140}
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="Placeholder"
+        preserveAspectRatio="xMidYMid slice"
+        focusable="false"
+      >
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+      </svg>
+      <h2 className="fw-normal">Heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad non culpa reiciendis? Odio eum quaerat corporis incidunt obcaecati beatae?
+      </p>
+      
     </div>
+    {/* /.col-lg-4 */}
+    <div className="col-lg-4">
+      <svg
+        className="bd-placeholder-img rounded-circle"
+        width={140}
+        height={140}
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="Placeholder"
+        preserveAspectRatio="xMidYMid slice"
+        focusable="false"
+      >
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+      </svg>
+      <h2 className="fw-normal">Heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quasi voluptate quia fuga iure! Amet ea rerum id voluptas consectetur.
+      </p>
+      
+    </div>
+    {/* /.col-lg-4 */}
   </div>
- 
+  {/* /.row */}
+  
 </div>
+
+
+      
+
 
     </div>
   );

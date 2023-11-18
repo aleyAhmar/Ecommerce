@@ -7,9 +7,9 @@ import AboutPage from './AboutPage'
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark"> 
+    <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" style={{position:"sticky"}}> 
       <div className="container">
-        <NavLink className="navbar-brand" to="/">
+        <NavLink className="navbar-brand" to="/" style={{fontWeight:"600", fontSize:"24"}}>
           AHC - Surgical Equipments
         </NavLink>
         <button

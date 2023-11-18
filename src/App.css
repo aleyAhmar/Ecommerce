@@ -3,19 +3,39 @@
 font-family: 'Quicksand', sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  .carousel-image {
+    /* background-color: lightblue; */
+    height: auto;
+  }
+  .carousel-div{
+    height: auto;
+  }
+}
+
 #myCarousel{
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  overflow: hidden;
+  overflow:visible;
+ 
   position: relative;
+}
+
+.carousel-image{
+  object-fit: cover;
+  overflow: visible;
 }
 
 .image-dialyzer{
   height: 300px;
   width: 300px;
   overflow: hidden;
+}
+.carousel {
+  margin-bottom: 4rem;
+  position: relative;
 }
 
 

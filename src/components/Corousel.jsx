@@ -7,10 +7,10 @@ import img3 from "../images/medical-3.jpg";
 const Corousel = () => {
 
     return (
-        <>
+        <div className="carousel-div">
             <div
                 id="myCarousel"
-                className="carousel slide mb-6"
+                className="carousel slide mb-6 cssCarousel"
                 data-bs-ride="carousel"
             >
                 <div className="carousel-indicators">
@@ -41,19 +41,19 @@ const Corousel = () => {
                 {/* Carousel body */}
                 <div className="carousel-inner" >
                     <div className="carousel-item">
-                        <img src={img1} className="w-100 h-75"  alt="Slide 1" />
+                        <img src={img1} className="w-100 h-75 carousel-image"  alt="Slide 1" />
                         <div className="container">
                             
                         </div>
                     </div>
                     <div className="carousel-item active">
-                        <img src={img2} className=" w-100 h-75" alt="Slide 2" />
+                        <img src={img2} className=" w-100 h-75 carousel-image" alt="Slide 2" />
                         <div className="container">
                             
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={img3} className="w-100 h-100" alt="Slide 3" />
+                        <img src={img3} className="w-100 h-100 carousel-image" alt="Slide 3" />
                         <div className="container">
                             
                         </div>
@@ -78,7 +78,7 @@ const Corousel = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-        </>
+        </div>
     );
 };
 
