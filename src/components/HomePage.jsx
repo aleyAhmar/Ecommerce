@@ -3,6 +3,8 @@ import Header from './Header'
 import Corousel from './Corousel'
 import ContactStrip from './ContactStrip'
 import HomePageWelcome from './HomePageWelcome'
+import Footer from './Footer'
+import OurDomain from './OurDomain'
 
 
 
@@ -13,7 +15,8 @@ const HomePage = () => {
     <Header/>
     <Corousel/>
     <HomePageWelcome/>
-    {/* <h1>Home Page</h1> */}
+    <OurDomain/>
+    <Footer/>
     </>
   )
 }
