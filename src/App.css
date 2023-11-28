@@ -37,5 +37,10 @@ font-family: 'Quicksand', sans-serif;
   position: relative;
 }
 
+.container .contact-input{
+  max-width: 400px;
+  margin: auto;
+}
+
 
 

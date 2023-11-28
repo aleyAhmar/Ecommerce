@@ -1,12 +1,23 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
+import ProductCatalogue from "./ProductCatalogue";
 
-const ProductPage = () => {
+const ProductPage = ({ productList }) => {
   return (
     <>
       <Header />
-
-      <h1>Product Page</h1>
+      {productList.map((product) => {
+        return (
+          <ProductCatalogue
+            key={product.id}
+            name={product.name}
+            price={product.price}
+            quantity={product.quantity}
+          />
+        );
+      })}
+      <Footer />
     </>
   );
 };
